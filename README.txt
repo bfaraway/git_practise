@@ -1,3 +1,3 @@
-Hello Git and Github!!
-Have I done something
-New features
+Hello!
+
+This is just a practise project. It is a random message generator.
