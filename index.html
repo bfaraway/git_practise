@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="resources/style.css">
     <link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@800,500,700,400,300,900&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
-    <script src="resources/messaging.js"></script>
+    <script src="resources/messaging.js" async></script>
     <title>FixYou Bot</title>
 </head>
 <body>
@@ -16,7 +16,7 @@
     </header>
     <main>
         <div class="band">
-            <div class="item-1" onclick="displayMessage()" >
+            <div class="item-1" id="itemCard-1" >
                 <article>
                     <h1 id="messageDisplay">If you are feeling down,<br> click me.</h1>
                     <p id="additionalText" class="hidden">If you did,<br> click me again.</p>

@@ -30,4 +30,6 @@ function displayMessage() {
     }
 };
 
+//event listener
+document.getElementById('itemCard-1').addEventListener('click', displayMessage);
 
